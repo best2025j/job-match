@@ -29,10 +29,6 @@ Install dependencies
 
 npm install
 
-Create a .env.local file to store API keys (if required)
-
-NEXT_PUBLIC_JOB_API_URL=https://api.example.com/jobs
-
 Run the development server
 
 npm run dev
