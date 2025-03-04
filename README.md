@@ -62,8 +62,6 @@ Vercel will provide a live link where the project is hosted.
 
 The project integrates with an external tech jobs API to fetch real-time job listings. The API is called in the Zustand store, and data is processed to calculate match scores based on user skills.
 
-Endpoint: https://api.example.com/jobs
-
 Method: GET
 
 Response Format: JSON containing job title, company, location, salary, and required skills.
