@@ -22,8 +22,8 @@ Allows users to apply for jobs directly from the dashboard
 
 Clone the repository
 
-git clone https://github.com/your-username/ai-job-match-dashboard.git
-cd ai-job-match-dashboard
+git clone https://github.com/best2025j/job-match.git
+cd job-match
 
 Install dependencies
 
