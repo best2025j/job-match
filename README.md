@@ -1,37 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AI-Powered Job Match Dashboard
 
-## Getting Started
+🚀 Description
 
-First, run the development server:
+The AI-Powered Job Match Dashboard is a web application that fetches tech job listings from an online API and matches them with a user's skills. The app calculates a match score based on required skills and highlights job opportunities accordingly. Built with Next.js, React, Tailwind CSS, and Zustand, this project demonstrates API integration, UI/UX best practices, and frontend development skills.
 
-```bash
+✨ Features
+
+Fetches live job listings from an external tech jobs API
+
+Matches job requirements with user skills and calculates match scores
+
+Displays job details, including company, salary, and required skills
+
+Highlights job match scores using color-coded indicators
+
+Provides skill gap suggestions to improve job eligibility
+
+Allows users to apply for jobs directly from the dashboard
+
+🛠️ Installation Steps
+
+Clone the repository
+
+git clone https://github.com/your-username/ai-job-match-dashboard.git
+cd ai-job-match-dashboard
+
+Install dependencies
+
+npm install
+
+Create a .env.local file to store API keys (if required)
+
+NEXT_PUBLIC_JOB_API_URL=https://api.example.com/jobs
+
+Run the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🚀 How to Deploy on Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Install Vercel CLI (if not already installed)
 
-## Learn More
+npm install -g vercel
 
-To learn more about Next.js, take a look at the following resources:
+Login to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+vercel login
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy the project
 
-## Deploy on Vercel
+vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Follow the prompts to complete the deployment.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# job-match
+Get the Live URL
+Vercel will provide a live link where the project is hosted.
+
+🌐 API Integration Details
+
+The project integrates with an external tech jobs API to fetch real-time job listings. The API is called in the Zustand store, and data is processed to calculate match scores based on user skills.
+
+Endpoint: https://api.example.com/jobs
+
+Method: GET
+
+Response Format: JSON containing job title, company, location, salary, and required skills.
+
+🌍 Live Demo
+
+View the Live Project on Vercel
+
+📌 Contributing
+
+Feel free to fork this repository and submit pull requests for improvements!
+
+📧 Contact
+
+For any questions, reach out via [your email] or connect on [your social links].
+
